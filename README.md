@@ -7,4 +7,5 @@ It consist in 3 serialised FM operators (Modulator 2 --> Modulator 1 --> Generat
 
 yml file gives configuration options to use it in Zynthian project https://zynthian.org/.
 
-Control is very simple: CC 07 or CC11 control the volume in 7 bit resolution, CC16 (MSB) and CC48 (LSB) are combined together to control the pitch in 14 bits resolution. 
+Control is very simple: CC 07 or CC11 control the volume in 7 bit resolution, CC16 (MSB) and CC48 (LSB) are combined together to control the pitch in 14 bits resolution.
+(Send CC48 (LSB) 1st, CC16 (MSB) 2nd ). No need to send Note On/Off messages or Pitch Bend messages. 
