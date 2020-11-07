@@ -1,0 +1,42 @@
+main_file: "vd_fm_ther_synth.pd"
+
+midi_controllers:
+ Volume:
+  midi_cc: 7
+  value: 127
+ Expression:
+  midi_cc: 11
+  value: 127
+ Mod_Wheel_Freq:
+  midi_cc: 16
+  value: 32
+ Mod_Wheel:
+  midi_cc: 1
+  value: 0
+ 
+ Mod_Fr_Coarse_1:
+  midi_cc: 23
+  value: 32
+ Mod_Fr_Fine_1:
+  midi_cc: 24
+  value: 64
+ Mod_Fr_Coarse_2:
+  midi_cc: 26
+  value: 32
+ Mod_Fr_Fine_2:
+  midi_cc: 27
+  value: 64
+ 
+ Mod_Rt_1:
+  midi_cc: 22
+  value: 0
+ Mod_Rt_2:
+  midi_cc: 25
+  value: 0
+ Cutoff:
+  midi_cc: 74
+  value: 128
+ Resonance:
+  midi_cc: 71
+  value: 0
+
