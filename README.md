@@ -1,5 +1,5 @@
 # Pure-Data-FM-Ribbon-Synth
-A Pure Data very simple 3 operator FM synth that works well with MIDI Theremin (version 2.4 and above) https://github.com/MrDham/OpenTheremin_V3_with_MIDI
+A Pure Data very simple 3 operator FM synth that works well with MIDI Theremin (version 2.6 and above) https://github.com/MrDham/OpenTheremin_V3_with_MIDI
 
 This synth is developed in Pure Data language. for more information go to : www.puredata.info/.
 
